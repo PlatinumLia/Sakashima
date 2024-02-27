@@ -1,36 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325, #8E5D52 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    font-size: x-large;
+    color: #ffff;
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
 
 .logoH {
-    width: 5%;
-    padding-left: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    width: 4%;
 }
 
-.nav {
-    position: absolute;
+.conteudo {
+    border-top: 0.4px solid #ffff;
+    margin-bottom: 48px;
 }
 
-.home {
-    font-family: "Righteous", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.livros {
-    font-family: "Righteous", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.cadastro {
-    font-family: "Righteous", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.contato {
-    font-family: "Righteous", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.imagem-footer {
+    width: 4%;
 }
