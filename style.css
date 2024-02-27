@@ -35,6 +35,46 @@ body {
     margin-bottom: 48px;
 }
 
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-titulo {
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 64px;
+    color: #ffff;
+}
+
+.conteudo-principal-subtitulo {
+    font-family: 'Sarala';
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4;
+}
+
+.conteudo-principal-botao{
+    background-color: #ecd6c4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala';
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+
 .imagem-footer {
     width: 4%;
 }
