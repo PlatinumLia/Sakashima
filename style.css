@@ -31,7 +31,7 @@ body {
 }
 
 .conteudo {
-    border-top: 0.4px solid #ffff;
+    border-top: 0.4px solid #ecd6c4;
     margin-bottom: 48px;
 }
 
@@ -88,7 +88,7 @@ body {
 }
 
 .conteudo-secundario-titulo {
-    border-top: 0.4px solid #ffff;
+    border-top: 0.4px solid #ecd6c4;
     padding-top: 40px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
@@ -99,11 +99,39 @@ body {
 
 .conteudo-secundario-p1 {
     font-family: 'Righteous', cursive;
-    font-weight: 400;
-    font-size: 24px;
+    font-weight: 300;
+    font-size: 18px;
     color: #ffff;
+}
+
+.conteudo-secundario-p2 {
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ffff;
+}
+
+.conteudo-secundario-p3 {
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ffff;
+}
+
+.rodape {
+    border-top: 0.8px solid #ecd6c4;
+    padding: 14px;
 }
 
 .imagem-footer {
     width: 4%;
+    display: block;
+    margin: 0 auto;
+}
+
+.copyright {
+    font-size: 15px;
+    font-style: italic;
+    color: #ecd6c4;
+    text-align: center;
 }
