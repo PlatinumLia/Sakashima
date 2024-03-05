@@ -26,6 +26,14 @@ body {
     font-size: 18px;
 }
 
+.home {
+    text-decoration: none;
+}
+
+.cadastro {
+    text-decoration: none;
+}
+
 .logoH {
     width: 4%;
 }
